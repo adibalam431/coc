@@ -198,7 +198,7 @@ export default function JsonArrangerViewer({ initialData = null, url = null }) {
                 const parsed = JSON.parse(e.target.value);
                 setDataObj(parsed);
               } catch (err) {
-                // allow live editing without crashing
+                // allow live editfing without crashing
               }
             }}
           />
