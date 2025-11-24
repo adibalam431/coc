@@ -250,7 +250,7 @@ export default function JsonArrangerViewer({ initialData = null, url = null }) {
                 textAlign: "left",
                 padding: 8,
                 background: activeKey === k ? "#e8f0ff" : "#fff",
-                border: "2px solid #ddd",
+                border: "1px solid #ddd",
               }}
             >
               {k}
